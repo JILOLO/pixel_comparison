@@ -8,7 +8,7 @@ Recognize image by comparing pixels
 
 In the example:
 * root path = images\numbers\
-* certain path = images\numbers\
+* certain path = images\numbers\test.png
 
 ## Run model
 1. If no img.db has ever been created
@@ -21,4 +21,5 @@ whatNumIsThis('images/numbers/test.png')
 ```
 
 ## Output
+eg. put a 6.n.png:
 ![alt text](Figure_1.png)
