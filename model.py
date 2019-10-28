@@ -30,7 +30,7 @@ def createExamples():
     Args:
         subfolder structure:
             image/numbers/
-            0.1.png, 0.2.png, ...,0.9.png, 1.1.png, 1.2.png, ..., 1.9.png, ..., 9.9.png
+                |--> 0.1.png, 0.2.png, ...,0.9.png, 1.1.png, 1.2.png, ..., 1.9.png, ..., 9.9.png
     
     Returns:
         void
