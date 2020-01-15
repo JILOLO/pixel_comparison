@@ -109,7 +109,7 @@ def threshold(imagArray):
     balance = mean(balanceAr)
     for eachRow in newAr:
         for eachPix in eachRow:
-            if mean(eachPix[:2]):
+            if mean(eachPix[:2]) > balance:
                 eachPix[0] = 255
                 eachPix[1] = 255
                 eachPix[2] = 255
